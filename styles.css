@@ -1,0 +1,195 @@
+* {
+    
+}
+
+body {
+    background-color: rgb(10, 10, 31);
+    color: aliceblue;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(10, 10, 31);
+    font-family: "Zen Dots";
+    border-bottom: #2D00D1 2px solid;
+    border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+}
+
+/*body custom*/
+
+.presentation h1 {
+    font-family: "Zen Dots";
+    text-align: center;
+    padding: 30px;
+    border: 2px solid;
+    border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
+    box-shadow: 3px 3px 5px #3700FF;
+}
+
+span {
+    color: #3700FF;
+}
+
+
+.about h2 {
+    font-family: "Zen Dots";
+    margin: 40px;
+    text-align: center;
+    padding: 30px;
+}
+
+.about p {
+    font-family: "Michroma";
+    gap: 10px;
+    margin: 40px;
+    text-align: justify;
+}
+
+.projects {
+    border: 2px solid;
+    border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
+    box-shadow: 3px 3px 5px #3700FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.projects h2 {
+    font-family: "Zen Dots";
+    text-align: center;
+    padding: 30px;
+}
+
+.projects a {
+    font-family: "Zen Dots";
+    text-decoration: none;  
+    color: aliceblue;
+    font-weight: bold; 
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row; /* Pone las tarjetas en una fila */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    gap: 10rem; /* Espacio entre las tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas pasen a la siguiente línea si no hay espacio */
+    margin-top: 1rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column; /* Pone el título arriba de la imagen */
+    align-items: center; /* Centra el título y la imagen */
+    gap: 1rem; /* Espacio entre el título y la imagen */
+}
+
+.happy-code {
+    height: 300px;
+    width: 500px;
+    border: 2px solid;
+    border-radius: 15%;
+}
+
+
+.project-card-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.dasmoto {
+    height: 300px;
+    width: 500px;
+    border: 2px solid;
+    border-radius: 15%;
+}
+
+.education h2 {
+    font-family: "Zen Dots";
+    text-align: center;
+    padding: 30px;
+}
+
+.education p {
+    font-family: "Michroma";
+    margin: 30px;
+    text-align: justify;
+}
+
+.contact {
+    border: 2px solid;
+    border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
+    box-shadow: 3px 3px 5px #3700FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.contact h2 {
+    font-family: "Zen Dots";
+    text-align: center;
+    padding: 30px;
+}
+
+.contact h3 {
+    font-family: "Michroma";
+}
+
+
+.contact-container {
+    display: flex;
+    flex-direction: row; /* Pone las tarjetas en una fila */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    gap: 10rem; /* Espacio entre las tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas pasen a la siguiente línea si no hay espacio */
+    margin-top: 1rem;
+}
+
+.ig-logo,
+.mail-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 280px; /* Añadimos un ancho fijo para igualar los contenedores */
+}
+
+.ig-image,
+.mail-image {
+    border-radius: 15%;
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    border-top: 2px solid;
+    border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
+    font-family: "Michroma";
+    font-size: 0.5em;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+}
