@@ -113,7 +113,7 @@ span {
     text-align: justify;
 }
 
-.projects {
+#projects {
     border: 2px solid;
     border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
     box-shadow: 3px 3px 5px #3700FF;
@@ -123,20 +123,20 @@ span {
     padding-bottom: 20px;
 }
 
-.projects h2 {
+#projects h2 {
     font-family: "Zen Dots";
     text-align: center;
     padding: 30px;
 }
 
-.projects h4 {
+#projects h4 {
     font-family: "Zen Dots";
     text-decoration: none;  
     color: aliceblue;
     font-weight: bold; 
 }
 
-.projects a {
+#projects a {
     text-decoration: none;
     color: aliceblue;
 }
