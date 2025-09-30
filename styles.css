@@ -128,11 +128,16 @@ span {
     padding: 30px;
 }
 
-.projects a {
+.projects h4 {
     font-family: "Zen Dots";
     text-decoration: none;  
     color: aliceblue;
     font-weight: bold; 
+}
+
+.projects a {
+    text-decoration: none;
+    color: aliceblue;
 }
 
 .projects-container {
