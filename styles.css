@@ -1,6 +1,44 @@
-* {
+@media screen and (max-resolution: 150dpi) and (max-width: 480px) {
     
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .presentation {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  .presentation h2 {
+    font-size: 1.2em;
+  }
+
+  .presentation p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  nav ul li {
+    padding: 10px 0;
+    width: 100%;
+  }
+}
+
 
 body {
     background-color: rgb(10, 10, 31);
@@ -19,12 +57,18 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    flex-wrap: wrap;
+}
+
+nav {
+    
 }
 
 nav a {
     text-decoration: none;
     color: aliceblue;
     font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
 nav ul {
@@ -33,6 +77,10 @@ nav ul {
     align-items: center;
     list-style-type: none;
     gap: 50px;
+}
+
+nav a:hover {
+    color: #3700FF;
 }
 
 /*body custom*/
@@ -65,7 +113,7 @@ span {
     text-align: justify;
 }
 
-.projects {
+#projects {
     border: 2px solid;
     border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
     box-shadow: 3px 3px 5px #3700FF;
@@ -75,17 +123,22 @@ span {
     padding-bottom: 20px;
 }
 
-.projects h2 {
+#projects h2 {
     font-family: "Zen Dots";
     text-align: center;
     padding: 30px;
 }
 
-.projects a {
+#projects h4 {
     font-family: "Zen Dots";
     text-decoration: none;  
     color: aliceblue;
     font-weight: bold; 
+}
+
+#projects a {
+    text-decoration: none;
+    color: aliceblue;
 }
 
 .projects-container {
