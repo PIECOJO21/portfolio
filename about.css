@@ -45,7 +45,6 @@ body {
 }
 
 .container {
-  max-width: 800px;
   margin: 2rem auto;
   padding: 1rem 2rem;
   background-color: rgb(10, 10, 31);
@@ -88,6 +87,10 @@ nav a:hover {
     color: #3700FF;
 }
 
+ul li {
+  list-style: none;
+}
+
 /*body custom*/
 
 p {
@@ -128,18 +131,11 @@ span {
   font-weight: bolder;
 }
 
-.skills ul {
-  font-family: 'Michroma';
-}
-
-.goals ul {
-  font-family: 'Michroma';
-}
-
 .skills ul,
 .goals ul,
 .hobbies ul {
   font-family: 'Michroma';
+  padding: 0;
 }
 
 .about-container {
@@ -161,8 +157,8 @@ span {
 .hobbies {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centra el contenido de cada tarjeta */
-  text-align: center; /* Centra el texto */
+  align-items: center; 
+  text-align: center;
 }
 
 .education-img, 
