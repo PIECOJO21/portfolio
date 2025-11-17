@@ -39,6 +39,11 @@
   }
 }
 
+.logo a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 body {
     background-color: rgb(10, 10, 31);
     color: aliceblue;
