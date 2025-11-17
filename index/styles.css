@@ -60,6 +60,11 @@ header {
     flex-wrap: wrap;
 }
 
+.logo a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 nav {
     
 }

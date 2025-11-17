@@ -1,0 +1,68 @@
+html {
+}
+
+
+body {
+    background-color: rgb(10, 10, 31);
+    color: aliceblue;
+    border: #2D00D1 3px solid;
+    border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
+    margin: 0;
+    height: 100vh;
+    display: flex;               
+    justify-content: center;     
+    align-items: center;
+    box-shadow: 3px 3px 5px #3700FF;
+}
+
+.logo a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.main-title h1 {
+    font-family: 'Zen Dots';
+    font-size: 45px;
+}
+
+p {
+    font-family: 'Michroma';
+}
+
+.colombia {
+    height: 30px;
+    border-radius: 4px;
+}
+
+.usa {
+    height: 30px;
+    border-radius: 4px;
+    width: 45.5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-gradient {
+  margin-top: 50px;
+  background: linear-gradient(45deg, #007BFF, #3700FF,  #2D00D1, #9a00c1); 
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s;
+  font-family: 'Michroma';
+  box-shadow: 3px 3px 5px #3700FF;
+}
+
+.btn-gradient:hover {
+  transform: scale(1.05); 
+}
