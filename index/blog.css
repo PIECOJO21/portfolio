@@ -118,3 +118,13 @@ h2 {
   align-items: center;
   padding-bottom: 20px;
 }
+
+footer {
+    border-top: 2px solid;
+    border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
+    font-family: "Michroma";
+    font-size: 0.5em;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+}
