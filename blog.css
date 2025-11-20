@@ -128,6 +128,25 @@ h2 {
   padding-bottom: 20px;
 }
 
+.welcome {
+  margin-top: 90px;
+  text-align: justify;
+}
+
+.enjoy {
+  color: #3700FF;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #3700FF;
+}
+
 .blog-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -189,6 +208,40 @@ h2 {
 }
 
 .tainy {
+  grid-area: image;
+  height: 3in;
+  width: 100%;
+  border: aliceblue solid 2px;
+  border-radius: 8px;
+}
+
+.blog-container-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: start;
+  grid-template-areas: 
+          "title image"
+          "text image";
+  border: 2px solid;
+  border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
+  box-shadow: 3px 3px 5px #3700FF;
+  margin-top: 150px ;
+  padding: 20px;
+  gap: 50px;
+}
+
+.blog-container-2 h2 {
+  margin: 0;
+  grid-area: title;
+  text-align: justify;
+}
+
+.blog-container-2 p {
+  grid-area: text;
+  text-align: justify;
+}
+
+.guitar-1 {
   grid-area: image;
   height: 3in;
   width: 100%;
