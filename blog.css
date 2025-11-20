@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .presentation {
+  .blog-container {
     width: 90%;
   }
 }
@@ -17,11 +17,11 @@
     font-size: 1.5em;
   }
 
-  .presentation h2 {
+  .blog-container h2 {
     font-size: 1.2em;
   }
 
-  .presentation p {
+  .blog-container p {
     font-size: 1em;
   }
 }
@@ -37,6 +37,10 @@
     padding: 10px 0;
     width: 100%;
   }
+}
+
+span {
+  font-weight: bolder;
 }
 
 .logo a {
@@ -124,12 +128,133 @@ h2 {
   padding-bottom: 20px;
 }
 
+.welcome {
+  margin-top: 90px;
+  text-align: justify;
+}
+
+.enjoy {
+  color: #3700FF;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #3700FF;
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: start;
+  grid-template-areas: 
+          "title image"
+          "text image";
+  border: 2px solid;
+  border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
+  box-shadow: 3px 3px 5px #3700FF;
+  margin-top: 150px ;
+  padding: 20px;
+  gap: 50px;
+}
+
+.blog-container h2 {
+  margin: 0;
+  grid-area: title;
+  text-align: justify;
+}
+
+.blog-container p {
+  grid-area: text;
+  text-align: justify;
+}
+
+.kratos {
+  grid-area: image;
+  height: 3in;
+  width: 100%;
+  border: aliceblue solid 2px;
+  border-radius: 8px;
+}
+
+.blog-container-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: start;
+  grid-template-areas: 
+          "title image"
+          "text image";
+  border: 2px solid;
+  border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
+  box-shadow: 3px 3px 5px #3700FF;
+  margin-top: 150px ;
+  padding: 20px;
+  gap: 50px;
+}
+
+.blog-container-1 h2 {
+  margin: 0;
+  grid-area: title;
+  text-align: justify;
+}
+
+.blog-container-1 p {
+  grid-area: text;
+  text-align: justify;
+}
+
+.tainy {
+  grid-area: image;
+  height: 3in;
+  width: 100%;
+  border: aliceblue solid 2px;
+  border-radius: 8px;
+}
+
+.blog-container-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: start;
+  grid-template-areas: 
+          "title image"
+          "text image";
+  border: 2px solid;
+  border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
+  box-shadow: 3px 3px 5px #3700FF;
+  margin-top: 150px ;
+  padding: 20px;
+  gap: 50px;
+}
+
+.blog-container-2 h2 {
+  margin: 0;
+  grid-area: title;
+  text-align: justify;
+}
+
+.blog-container-2 p {
+  grid-area: text;
+  text-align: justify;
+}
+
+.guitar-1 {
+  grid-area: image;
+  height: 3in;
+  width: 100%;
+  border: aliceblue solid 2px;
+  border-radius: 8px;
+}
+
 footer {
-    border-top: 2px solid;
-    border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
-    font-family: "Michroma";
-    font-size: 0.5em;
-    text-align: center;
-    margin-top: auto;
-    padding: 10px;
+  border-top: 2px solid;
+  border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
+  font-family: "Michroma";
+  font-size: 0.5em;
+  text-align: center;
+  margin-top: auto;
+  padding: 10px;
 }
