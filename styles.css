@@ -233,12 +233,17 @@ footer {
     }
 
     nav ul {
+        margin-right: 33px;
         flex-direction: column;
-        gap: 15px;
+        gap: 35px;
     }
 
     nav a {
         font-size: 16px;
+    }
+
+    nav a:hover {
+    color: #3700FF;
     }
 
     /* PRESENTATION */
@@ -249,6 +254,16 @@ footer {
     .presentation h1 {
         font-size: 22px;
         padding: 20px;
+    }
+
+    .happy-code {
+        width: 4in;
+        height: 2.5in;
+    }
+
+    .dasmoto {
+        width: 4in;
+        height: 2.5in;
     }
 
     /* ABOUT */

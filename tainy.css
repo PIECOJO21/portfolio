@@ -54,6 +54,7 @@ ul li {
 
 p {
   font-family: 'Michroma';
+  text-align: justify;
 }
 
 h1 {
@@ -100,6 +101,33 @@ h2 {
     border-radius: 3%;
 }
 
+.btn-gradient {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background: linear-gradient(45deg, #007BFF, #3700FF,  #2D00D1, #9a00c1); 
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s;
+  font-family: 'Michroma';
+  box-shadow: 3px 3px 5px #3700FF;
+}
+
+.btn-gradient:hover {
+  transform: scale(1.05);
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
 footer {
   border-top: 2px solid;
   border-image: linear-gradient(to right,#007BFF, #3700FF,  #2D00D1, #9a00c1) 1;
@@ -123,7 +151,7 @@ footer {
 
     nav ul {
         flex-direction: column;
-        gap: 12px;
+        gap: 35px;
         padding: 0;
     }
 
@@ -168,5 +196,10 @@ footer {
         font-size: 0.7em;
         padding: 15px;
         margin-top: 40px;
+    }
+
+    /* BUTTON */
+    .btn-gradient:hover {
+        transform: scale(1.05); 
     }
 }

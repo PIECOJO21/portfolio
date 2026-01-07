@@ -71,7 +71,6 @@ p {
 @media only screen and (max-width: 600px) {
 
     body {
-        height: auto; 
         padding: 20px;
         flex-direction: column;
     }
