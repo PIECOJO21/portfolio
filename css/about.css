@@ -1,43 +1,3 @@
-@media screen and (max-resolution: 150dpi) and (max-width: 480px) {
-    
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .presentation {
-    width: 90%;
-  }
-}
-
-@media (max-width: 480px) {
-  header h1 {
-    font-size: 1.5em;
-  }
-
-  .presentation h2 {
-    font-size: 1.2em;
-  }
-
-  .presentation p {
-    font-size: 1em;
-  }
-}
-
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    width: 100%;
-    margin-top: 15px;
-  }
-
-  nav ul li {
-    padding: 10px 0;
-    width: 100%;
-  }
-}
 
 .logo a {
     text-decoration: none;
@@ -185,4 +145,67 @@ footer {
     text-align: center;
     margin-top: auto;
     padding: 10px;
+}
+
+/* 📱 Responsive Design for Tablets & Phones */
+@media (max-width: 768px) {
+
+  /* Header */
+ header {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 35px;
+    padding: 0;
+  }
+
+    nav a {
+    font-size: 16px;
+  }
+
+    nav a:hover {
+    color: #3700FF;
+  }
+
+  /* Main container */
+  .container {
+    padding: 1rem;
+  }
+
+  /* Title section */
+  .title {
+    padding: 1rem;
+  }
+
+  .about-me {
+    padding: 1rem;
+    margin-top: 40px;
+  }
+
+  /* Grid becomes 1 column */
+  .about-container {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    margin-top: 50px;
+  }
+
+  /* Images resize */
+  .education-img, 
+  .skills-img, 
+  .journey-img, 
+  .goal-img, 
+  .passion-img, 
+  .guitar-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* Footer */
+  footer {
+    font-size: 0.7em;
+  }
 }
